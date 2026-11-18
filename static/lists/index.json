@@ -1,0 +1,13 @@
+{
+	"lists": [
+		{
+			"id": "fr-nl-basis-1",
+			"version": 1,
+			"title": "Frans basiswoorden 1",
+			"source": "nl",
+			"target": "fr",
+			"itemCount": 100,
+			"file": "fr-nl-basis-1.json"
+		}
+	]
+}

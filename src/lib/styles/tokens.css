@@ -1,0 +1,102 @@
+/* Design tokens van Level Up. Hexwaarden staan uitsluitend in dit bestand. */
+:root {
+	color-scheme: dark;
+
+	/* Basis */
+	--color-bg: #0b0e1a;
+	--color-surface: #151a2e;
+	--color-surface-raised: #1f2642;
+	--color-border: #2e3760;
+	--color-border-strong: #5a66a3;
+	--color-text: #f2f4ff;
+	--color-text-muted: #a7afd1;
+	--color-ink: #0b0e1a;
+	--color-on-primary: #ffffff;
+
+	/* Accenten */
+	--color-primary: #6c47ff;
+	--color-primary-light: #a995ff;
+	--color-energy: #22d3ee;
+	--color-xp: #ffc53d;
+	--color-boss: #ff4fd8;
+
+	/* Feedback */
+	--color-success: #2ee59d;
+	--color-warning: #ffa94d;
+	--color-error: #ff5c7a;
+
+	/* Doorzichtige tinten voor vlakken achter feedback en markeringen */
+	--color-success-tint: rgb(46 229 157 / 0.14);
+	--color-warning-tint: rgb(255 169 77 / 0.14);
+	--color-error-tint: rgb(255 92 122 / 0.14);
+	--color-primary-tint: rgb(108 71 255 / 0.22);
+	--color-scrim: rgb(11 14 26 / 0.8);
+
+	/* Beheersingsniveaus (LD-01) */
+	--color-mastery-new: #8a93b8;
+	--color-mastery-practiced: var(--color-energy);
+	--color-mastery-known: var(--color-primary-light);
+	--color-mastery-mastered: var(--color-xp);
+
+	/* Lettertypes */
+	--font-display: 'Chakra Petch', system-ui, sans-serif;
+	--font-text: 'Inter', system-ui, sans-serif;
+
+	/* Typografieschaal (rem, zodat tekstvergroting werkt) */
+	--text-display-xl: 2.5rem;
+	--leading-display-xl: 2.75rem;
+	--text-display-l: 1.75rem;
+	--leading-display-l: 2rem;
+	--text-display-m: 1.25rem;
+	--leading-display-m: 1.5rem;
+	--text-prompt: 2rem;
+	--leading-prompt: 2.5rem;
+	--text-answer: 1.25rem;
+	--leading-answer: 1.75rem;
+	--text-body: 1rem;
+	--leading-body: 1.5rem;
+	--text-small: 0.875rem;
+	--leading-small: 1.25rem;
+
+	/* Vorm en ruimte */
+	--radius-s: 6px;
+	--radius-m: 12px;
+	--radius-full: 999px;
+	--bevel: 12px;
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-6: 24px;
+	--space-8: 32px;
+	--space-12: 48px;
+	--touch-target: 48px;
+	--input-height: 56px;
+	--content-narrow: 480px;
+	--content-wide: 960px;
+	--nav-height: 64px;
+	--sidebar-width: 240px;
+
+	/* Gloed (alleen voor hoofdacties en beloningen) */
+	--glow-primary: 0 0 16px rgb(108 71 255 / 0.4);
+	--glow-energy: 0 0 16px rgb(34 211 238 / 0.4);
+	--glow-xp: 0 0 16px rgb(255 197 61 / 0.4);
+	--glow-boss: 0 0 16px rgb(255 79 216 / 0.4);
+	--glow-success: 0 0 16px rgb(46 229 157 / 0.4);
+	--glow-filter-primary: drop-shadow(0 0 8px rgb(108 71 255 / 0.55));
+
+	/* Beweging */
+	--duration-fast: 120ms;
+	--duration-base: 200ms;
+	--duration-slow: 400ms;
+	--duration-celebrate: 1200ms;
+	--ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+	/* Focus */
+	--focus-ring: 2px solid var(--color-energy);
+	--focus-offset: 2px;
+
+	--z-nav: 20;
+	--z-toast: 60;
+	--z-dialog: 80;
+}
