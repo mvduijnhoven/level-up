@@ -22,6 +22,9 @@ Thumbs.db
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
+# IDE
+.idea/
+
 # Temporary files
 _shots/
 .scratch/
